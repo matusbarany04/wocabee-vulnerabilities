@@ -95,7 +95,7 @@ $( document ).ready(function() {
 
 # Stránka indexovaná ako IP adresa
 
-(link)[http://161.97.118.122]
+![link](http://161.97.118.122)
 
 Skôr estetická chyba, no apache sa dá nakonfigurovať aby apache presmeroval get na IP adresu na samotnú doménu stránky
 
@@ -121,8 +121,7 @@ Apache by nemal odhaľovať priečinkovú štruktúru verejnosti, umožnuje tým
  - Ak chcete predísť používaniu bota uvedeného vyššie, odporúčame vyhodnocovať čas za ktorý je určitý počet slovíčok vyklikaných a pridať captchu ak systém vyhodnotí, že sa jedná o bota.
 
   Google Recaptcha
-  (captcha)[https://www.google.com/recaptcha/about/]
-
+  ![captcha](https://www.google.com/recaptcha/about/)
 
  - Pre staženie práce s automatizačnými botmi by bolo možno vhodné vykresľovať slovíčko ako obrázok, čím by sa sťažilo čítanie úloh   
 
