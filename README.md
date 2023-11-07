@@ -44,7 +44,7 @@ Stačí teda pod neho pridať brakepoint, prepísať hodnoty a stlačiť "uloži
 <img src="img/points_function.png " width="800">
 
 # súbor sec.js
-domnievame sa, že tento súbor by mal slúžiť na zaistenie či užívateľ nepodvádza, ale keďže je to stále frontend tiež to je možné jednoducho vypnúť.
+Domnievame sa, že tento súbor by mal slúžiť na zaistenie či užívateľ nepodvádza, ale keďže je to stále frontend tiež to je možné jednoducho vypnúť.
 
 ```js
 // security
