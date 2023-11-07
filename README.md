@@ -127,3 +127,4 @@ Apache by nemal odhaľovať priečinkovú štruktúru verejnosti, umožnuje tým
  - Pre staženie práce s automatizačnými botmi by bolo možno vhodné vykresľovať slovíčko ako obrázok, čím by sa sťažilo čítanie úloh   
 
 
+Dúfame, že naše návrhy prispejú k bezpečnejšej aplikácii a prajeme veľa šťastia s vývojom.
