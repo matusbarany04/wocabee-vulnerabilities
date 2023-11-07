@@ -3,7 +3,7 @@ Toto je súpis všetkých nájdených chýb v jazykovej aplikácií wocabee, kto
 
 # wocabee-bot 
 [bot](https://github.com/matusbarany04/wocabee-vulnerabilities/blob/master/main_with_flexible_range.py)
-Bot je python script fungujúci na selenium automatizovanom web prehliadači, ktorý funguje na princípe, že mu dáme slovník slovíčok, ktoré sa v lekcií nachádzajú a on potom na základe html kódu prečíta slovíčko a vloží text do kolónky so správnou odpoveďou, spolu s animationFadeTime dokáže byť bot dosť rýchly približne jedno slovíčko za sekundu. 
+Bot je python script fungujúci na selenium automatizovanom web prehliadači, ktorý funguje na princípe, že mu dáme slovník slovíčok, ktoré sa v lekcií nachádzajú a on potom na základe html kódu prečíta slovíčko a vloží text do kolónky so správnou odpoveďou, spolu s [animationFadeTime](# $animationFadeTime) dokáže byť bot dosť rýchly približne jedno slovíčko za sekundu. 
 
 
 # Hlavný problém
