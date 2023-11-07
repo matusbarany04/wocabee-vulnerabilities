@@ -28,11 +28,15 @@ Aplikácia posiela každé 3 sekundy žiadosť s akciou check_status, či náhod
 # $spRows
 Slovíčko zadávané užívateľovi sú odhalené na frontende a je možná ich úprava, čo má za následok rychlejšie splnenie lekcie, pozretie si odpovedí alebo možnosť pre iných botov načítať slovník rovno zo stránky
 
+<img src="img/spRows.png " width="600">
+
 # Upravovanie prípočtu bodov
 Napriek tomu, že sčítané body sú v závere šifrované, je možné si pripočítať takmer neobmedzený počet bodov, v súbore practise_local.js je blok kódu v ktorom sú zapísané počty bodov normálnymi hodnotami, ktoré sa dajú meniť. 
 Stačí teda pod neho pridať brakepoint, prepísať hodnoty a stlačiť "uložiť a odísť". Wocapointy sú následne pripočítané ako keby užívateľ normálne všetko vyklikal - Je otázne či je dobré posielať počet bodov nakonci v POST žiadosti s akciou savePracticePoints.
 
 [function](img/function.png)
+
+
 
 # súbor sec.js
 domnievame sa, že tento súbor by mal slúžiť na zaistenie či užívateľ nepodvádza, ale keďže je to stále frontend tiež to je možné jednoducho vypnúť.
@@ -89,6 +93,8 @@ $( document ).ready(function() {
 (link)[http://161.97.118.122]
 
 Skôr estetická chyba, no apache sa dá nakonfigurovať aby apache presmeroval get na IP adresu na samotnú doménu stránky
+
+<img src="img/ip.png " width="400">
 
 # Zle nakonfigurovaný apache server
 
