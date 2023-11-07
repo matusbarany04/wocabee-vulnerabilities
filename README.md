@@ -34,9 +34,7 @@ Slovíčko zadávané užívateľovi sú odhalené na frontende a je možná ich
 Napriek tomu, že sčítané body sú v závere šifrované, je možné si pripočítať takmer neobmedzený počet bodov, v súbore practise_local.js je blok kódu v ktorom sú zapísané počty bodov normálnymi hodnotami, ktoré sa dajú meniť. 
 Stačí teda pod neho pridať brakepoint, prepísať hodnoty a stlačiť "uložiť a odísť". Wocapointy sú následne pripočítané ako keby užívateľ normálne všetko vyklikal - Je otázne či je dobré posielať počet bodov nakonci v POST žiadosti s akciou savePracticePoints.
 
-[function](img/function.png)
-
-
+<img src="img/function.png " width="800">
 
 # súbor sec.js
 domnievame sa, že tento súbor by mal slúžiť na zaistenie či užívateľ nepodvádza, ale keďže je to stále frontend tiež to je možné jednoducho vypnúť.
