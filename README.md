@@ -8,7 +8,7 @@ Bot je python script fungujúci na selenium automatizovanom web prehliadači, kt
 
 # Hlavný problém
 Hlavným bezpečnostným problémom je, že funkcie ktoré by mali byť riešené na backende sú riešené na frontende. 
-Používateľovi tak stačí otvoriť vývojárske nástroje prehliadača a vie preložiť slovíčko skôr ako niečo zadá.  
+Napríklad používateľovi stačí otvoriť vývojárske nástroje prehliadača a vie preložiť slovíčko skôr ako niečo zadá.  
 Každá premenná na frontende sa tak dá jednoducho zmeniť ak otvorýme vývojárské nastavenia pridáme za ňu brakepoint a v konzole zmeníme jej hodnotu. 
 
 Tu je niekoľko dôležitých, ktoré sme našli:
