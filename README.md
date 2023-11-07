@@ -95,7 +95,7 @@ $( document ).ready(function() {
 
 # Stránka indexovaná ako IP adresa
 
-![link](http://161.97.118.122)
+[link](http://161.97.118.122)
 
 Skôr estetická chyba, no apache sa dá nakonfigurovať aby apache presmeroval get na IP adresu na samotnú doménu stránky
 
