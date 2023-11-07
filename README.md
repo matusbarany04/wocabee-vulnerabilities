@@ -86,7 +86,7 @@ $( document ).ready(function() {
 ```
     
 
-# Stránke indexovaná ako IP adresa
+# Stránka indexovaná ako IP adresa
 
 (link)[http://161.97.118.122]
 
