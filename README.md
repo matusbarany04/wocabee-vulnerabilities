@@ -1,5 +1,5 @@
 # WocaBee bezpečnostné diery
-Toto je súpis všetkch nájdených chýb v jazykovej aplikácií wocabee, ktoré uľahčujú pridávanie bodov
+Toto je súpis všetkých nájdených chýb v jazykovej aplikácií wocabee, ktoré uľahčujú pridávanie bodov
 
 # wocabee-bot 
 [bot](https://github.com/matusbarany04/wocabee-vulnerabilities/blob/master/main_with_flexible_range.py)
