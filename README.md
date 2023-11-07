@@ -120,8 +120,7 @@ Apache by nemal odhaľovať priečinkovú štruktúru verejnosti, umožnuje tým
 
  - Ak chcete predísť používaniu bota uvedeného vyššie, odporúčame vyhodnocovať čas za ktorý je určitý počet slovíčok vyklikaných a pridať captchu ak systém vyhodnotí, že sa jedná o bota.
 
-  Google Recaptcha
-  ![captcha](https://www.google.com/recaptcha/about/)
+    [Google Recaptcha](https://www.google.com/recaptcha/about/) (captcha)
 
  - Pre staženie práce s automatizačnými botmi by bolo možno vhodné vykresľovať slovíčko ako obrázok, čím by sa sťažilo čítanie úloh   
 
