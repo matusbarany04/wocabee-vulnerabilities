@@ -1,4 +1,4 @@
-# wocabee bezpečnostné diery
+# WocaBee bezpečnostné diery
 Toto je súpis všetkch nájdených chýb v jazykovej aplikácií wocabee, ktoré uľahčujú pridávanie bodov
 
 # wocabee-bot 
