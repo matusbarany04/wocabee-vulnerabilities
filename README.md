@@ -14,7 +14,7 @@ Každá premenná na frontende sa dá jednoducho zmeniť ak pridáme za ňu brak
 Tu je niekoľko dôležitých, ktoré sme našli:
 
 # $locWords
-Slovíčko zadávané užívateľovi sú odhalené na frontende a je možná ich úprava, prezretie odpovedí alebo možnosť pre iných botov načítať slovník rovno zo stránky.
+Slovíčka zadávané užívateľovi sú odhalené na frontende a je možná ich úprava, prezretie odpovedí alebo možnosť pre iných botov načítať slovník rovno zo stránky.
 
 <img src="img/locWords.png" width="600">
 
