@@ -21,7 +21,7 @@ Na urýchlenie času medzi jednotlivými slovíčkami je potrebné pozmeniť pre
 
 
 # checkStatus
-Aplikácia posiela každé 3 sekundy žiadosť s akciou check_status, či náhodou používateľ nemá otvorenú aplikáciu aj na druhej karte alebo nebol odhlásený. Čas je tiež zadefinový v premennej v JS, zmeniť ju je to jeden zo spôsobov ako tieto pravidelné žiadosti zrušiť.
+Aplikácia posiela každé 3 sekundy žiadosť s akciou check_status, či náhodou používateľ nemá otvorenú aplikáciu aj na druhej karte alebo nebol odhlásený. Čas je tiež zadefinový v premennej v JS, jej zmenenie je jeden zo spôsobov ako tieto pravidelné žiadosti zrušiť.
 
 <img src="img/checkStatusMS.png " width="400">
 
@@ -34,7 +34,7 @@ Slovíčko zadávané užívateľovi sú odhalené na frontende a je možná ich
 Napriek tomu, že sčítané body sú v závere šifrované, je možné si pripočítať takmer neobmedzený počet bodov, v súbore practise_local.js je blok kódu v ktorom sú zapísané počty bodov normálnymi hodnotami, ktoré sa dajú meniť. 
 Stačí teda pod neho pridať brakepoint, prepísať hodnoty a stlačiť "uložiť a odísť". Wocapointy sú následne pripočítané ako keby užívateľ normálne všetko vyklikal - Je otázne či je dobré posielať počet bodov nakonci v POST žiadosti s akciou savePracticePoints.
 
-<img src="img/function.png " width="800">
+<img src="img/points_function.png " width="800">
 
 # súbor sec.js
 domnievame sa, že tento súbor by mal slúžiť na zaistenie či užívateľ nepodvádza, ale keďže je to stále frontend tiež to je možné jednoducho vypnúť.
