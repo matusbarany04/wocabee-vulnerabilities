@@ -1,4 +1,4 @@
-# wocabee-vulnerabilities
+# wocabee bezpečnostné diery
 Toto je súpis všetkch nájdených chýb v jazykovej aplikácií wocabee, ktoré uľahčujú pridávanie bodov
 
 # wocabee-bot 
@@ -13,9 +13,21 @@ Každá premenná na frontende sa tak dá jednoducho zmeniť ak otvorýme vývoj
 
 Tu je niekoľko dôležitých, ktoré sme našli:
 
+# $locWords
+Slovíčko zadávané užívateľovi sú odhalené na frontende a je možná ich úprava, prezretie odpovedí alebo možnosť pre iných botov načítať slovník rovno zo stránky.
+
+<img src="img/locWords.png" width="600">
+
+# $spRows
+Úprava určitých hodnôt v tejto premennej má za následok rychlejšie splnenie lekcie alebo obídenie slovíčka prepísaním hodnoty tak, ako by už bolo vyplnené.
+
+<img src="img/spRows.png " width="600">
+
 # $animationFadeTime
 
-Na urýchlenie času medzi jednotlivými slovíčkami je potrebné pozmeniť premennú $animationFadeTime z 875 na 0, po čom zmiznú všetky animácie,  výrazne sa zrýchli proces prechádzania slovíčok (bot tak dokáže urobiť zhruba 10 000 wocapointov za hodinu). 
+Na urýchlenie času medzi jednotlivými slovíčkami je potrebné pozmeniť premennú $animationFadeTime z 875 na 0, po čom zmiznú všetky animácie,  výrazne sa zrýchli proces prechádzania slovíčok (bot tak dokáže urobiť zhruba 10 000 wocapointov za hodinu).
+
+PS: Mali sme pocit, že animácie boli skôr nepriemnosťou aj pre bežných používateľov aplikácie
 
 <img src="img/animationFadeTime.png " width="400">
 
@@ -24,11 +36,6 @@ Na urýchlenie času medzi jednotlivými slovíčkami je potrebné pozmeniť pre
 Aplikácia posiela každé 3 sekundy žiadosť s akciou check_status, či náhodou používateľ nemá otvorenú aplikáciu aj na druhej karte alebo nebol odhlásený. Čas je tiež zadefinový v premennej v JS, jej zmenenie je jeden zo spôsobov ako tieto pravidelné žiadosti zrušiť.
 
 <img src="img/checkStatusMS.png " width="400">
-
-# $spRows
-Slovíčko zadávané užívateľovi sú odhalené na frontende a je možná ich úprava, čo má za následok rychlejšie splnenie lekcie, pozretie si odpovedí alebo možnosť pre iných botov načítať slovník rovno zo stránky
-
-<img src="img/spRows.png " width="600">
 
 # Upravovanie prípočtu bodov
 Napriek tomu, že sčítané body sú v závere šifrované, je možné si pripočítať takmer neobmedzený počet bodov, v súbore practise_local.js je blok kódu v ktorom sú zapísané počty bodov normálnymi hodnotami, ktoré sa dajú meniť. 
@@ -106,7 +113,6 @@ Apache by nemal odhaľovať priečinkovú štruktúru verejnosti, umožnuje tým
 # naše odporúčané kroky
 
  - Odporúčame prepísať kritické funkcie do PHP a tak predísť meneniu hodnôt v stránke.
-
 
  - Navrhujeme, častejšiu komunikáciu so serverom ako taktiež dynamické načítanie jednotlivých úloh spolu s testovaním správnosti odpovedí na backende, tým by sa zamedzila zmena bodov v javascripte, ktorá je poslaná na server  
 
