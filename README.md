@@ -23,6 +23,8 @@ Na urýchlenie času medzi jednotlivými slovíčkami je potrebné pozmeniť pre
 # checkStatus
 Aplikácia posiela každé 3 sekundy žiadosť s akciou check_status, či náhodou používateľ nemá otvorenú aplikáciu aj na druhej karte alebo nebol odhlásený. Čas je tiež zadefinový v premennej v JS, zmeniť ju je to jeden zo spôsobov ako tieto pravidelné žiadosti zrušiť.
 
+<img src="img/checkStatusMS.png " width="400">
+
 # $spRows
 Slovíčko zadávané užívateľovi sú odhalené na frontende a je možná ich úprava, čo má za následok rychlejšie splnenie lekcie, pozretie si odpovedí alebo možnosť pre iných botov načítať slovník rovno zo stránky
 
@@ -93,6 +95,9 @@ Skôr estetická chyba, no apache sa dá nakonfigurovať aby apache presmeroval 
 Apache by nemal odhaľovať priečinkovú štruktúru verejnosti, umožnuje tým ľudom jednoducho prehľadávať podstránky, ktoré by inak bolo možno ťažko uhádnuteľné.
 
 
+<img src="img/apps.png" width="400">
+<img src="img/php.png " width="400">
+<img src="img/sec.js.png " width="400">
 
 # naše odporúčané kroky
 
